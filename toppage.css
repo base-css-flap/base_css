@@ -42,6 +42,30 @@ body.shop #shopHeader nav{
 
 
 
+
+
+.fancy-wave {
+    display: inline-block;
+    position: relative;
+}
+
+.fancy-wave::after {
+    content: "";
+    position: absolute;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    height: 6px; /* 波線の高さ */
+    background: url('data:image/svg+xml;utf8,<svg width="100" height="6" xmlns="http://www.w3.org/2000/svg"><path d="M0,3 C5,0 10,6 15,3 C20,0 25,6 30,3 C35,0 40,6 45,3 C50,0 55,6 60,3" stroke="pink" stroke-width="2" fill="transparent"/></svg>') repeat-x;
+    background-size: auto 6px;
+}
+
+
+
+
+
+
+
 body#shopTopPage #mainContent div.item1box{
     display:block;
     box-sizing: border-box;
