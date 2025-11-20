@@ -47,7 +47,7 @@ body#shopTopPage #mainContent div.item1box{
     box-sizing: border-box;
     margin:0px;
     padding:15px 18px;
-    width:calc(33% / 3);
+    width:calc(100% / 3);
     overflow-wrap: break-word;
 }
 
