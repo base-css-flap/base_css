@@ -83,10 +83,10 @@ div.zp_header{
 body#shopTopPage #mainContent div.item1box{
     display:block;
     box-sizing: border-box;
-    margin:3px;
+    margin:10px;
     padding:15px 18px;
 	border-radius:10px;
-    width:calc((100% / 3) - 6px);
+    width:calc((100% / 3) - 20px);
     overflow-wrap: break-word;
 }
 
