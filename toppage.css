@@ -42,7 +42,7 @@ body.shop #shopHeader nav{
 
 
 
-#mainContent div.item{
+body#shopTopPage #mainContent div.item{
     background:#FFFFFF;
     margin:0px;
 }
