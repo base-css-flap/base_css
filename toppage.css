@@ -12,10 +12,6 @@ div.zp_header{
 
 }
 
-div.zp_header::before{
-}
-
-
 
     div.zp_header img.shoplogo{
         width: 45%;
@@ -30,7 +26,7 @@ div.zp_header::before{
         padding:15px 0px 0px 0px;
     }
 
-div.zp_header_menu::before{
+div.zp_header_menu::after{
 	content: "";
 	width: 100%;
 	height: 130px;
