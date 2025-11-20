@@ -44,22 +44,32 @@ body.shop #shopHeader nav{
 
 
 
-.fancy-wave {
-    display: inline-block;
-    position: relative;
+.wave-background {
+  position: relative;
+  width: 100%;
+  height: 100vh;
+  background: linear-gradient(to bottom, #00f 50%, #f00 50%);
+  overflow: hidden;
 }
 
-.fancy-wave::after {
-    content: "";
-    position: absolute;
-    left: 0;
-    bottom: 0;
-    width: 100%;
-    height: 6px; /* 波線の高さ */
-    background: url('data:image/svg+xml;utf8,<svg width="100" height="6" xmlns="http://www.w3.org/2000/svg"><path d="M0,3 C5,0 10,6 15,3 C20,0 25,6 30,3 C35,0 40,6 45,3 C50,0 55,6 60,3" stroke="pink" stroke-width="2" fill="transparent"/></svg>') repeat-x;
-    background-size: auto 6px;
+.waves {
+  position: absolute;
+  bottom: 50%;
+  width: 200%;
+  height: 50%;
 }
 
+@keyframes waveAnimation {
+  0% { d: path("M0,64L60,69.3C120,75,240,85,360,101.3C480,117,600,139,720,128C840,117,960,75,1080,74.7C1200,75,1320,117,1380,138.7L1440,160L1440,320L0,320Z"); }
+  25% { d: path("M0,80L60,75C120,70,240,90,360,110C480,130,600,140,720,130C840,120,960,80,1080,90C1200,100,1320,140,1380,150L1440,160L1440,320L0,320Z"); }
+  50% { d: path("M0,70L60,60C120,50,240,85,360,100C480,115,600,135,720,120C840,105,960,80,1080,85C1200,90,1320,130,1380,140L1440,160L1440,320L0,320Z"); }
+  75% { d: path("M0,64L60,69.3C120,75,240,85,360,101.3C480,117,600,139,720,128C840,117,960,75,1080,74.7C1200,75,1320,117,1380,138.7L1440,160L1440,320L0,320Z"); }
+  100% { d: path("M0,64L60,69.3C120,75,240,85,360,101.3C480,117,600,139,720,128C840,117,960,75,1080,74.7C1200,75,1320,117,1380,138.7L1440,160L1440,320L0,320Z"); }
+}
+
+#wavePath {
+  animation: waveAnimation 8s ease-in-out infinite;
+}
 
 
 
