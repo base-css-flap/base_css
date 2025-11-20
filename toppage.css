@@ -43,17 +43,16 @@ body.shop #shopHeader nav{
 
 
 body#shopTopPage #mainContent div.item1box{
-
     margin:0px;
     padding:15px 18px;
 }
 
-body#shopTopPage #mainContent div.item1box:nth-child(3n-2){
+div.item1box:nth-child(3n-2){
     background:#00A089;
 }
-body#shopTopPage #mainContent div.item1box:nth-child(3n-1){
+div.item1box:nth-child(3n-1){
     background:#00997F;
 }
-body#shopTopPage #mainContent div.item1box:nth-child(3n){
+div.item1box:nth-child(3n){
     background:#009179;
 }
