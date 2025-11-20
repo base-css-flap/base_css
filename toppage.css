@@ -51,10 +51,10 @@ body#shopTopPage #mainContent div.item1box{
     overflow-wrap: break-word;
 }
 
-div.item1box:nth-child(3n-2){
+div.item1box:nth-child(2n){
     background:#00FFFF;
 }
-div.item1box:nth-child(3n-1){
+div.item1box:nth-child(2n-1){
     background:#C2EFE8;
 }
 
