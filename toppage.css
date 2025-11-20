@@ -141,6 +141,6 @@ div.item1box div.itemTitle h2{
 
 div.item1box ul.itemDetail li.itemPrice{
     font-size:180%;
-        
+    bottom: 0;
 }
 
