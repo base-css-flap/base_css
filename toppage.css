@@ -50,7 +50,7 @@ body#shopTopPage #mainContent div.item1box{
 }
 
 div.item1box:nth-child(3n-2){
-    background:#00A089;
+    background:#ffA089;
 }
 div.item1box:nth-child(3n-1){
     background:#00997F;
