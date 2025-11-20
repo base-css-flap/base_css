@@ -65,7 +65,7 @@ div.zp_header{
   background-size: auto;
   background-repeat: repeat no-repeat;
   background-position: 0vw bottom;
-  background-image: url("data:image/svg+xml;utf8,<svg viewBox='0 0 1200 105' fill='none' xmlns='http://www.w3.org/2000/svg'><path d='M0 17L33 15C82 10 133 11 200 23C267 35 333 52 400 55C467 58 533 47 600 32C667 17 733 0 800 0C867 0 933 17 1000 23C1067 29 1133 23 1167 20L1200 17V105H1167C1133 105 1067 105 1000 105C933 105 867 105 800 105C733 105 667 105 600 105C533 105 467 105 400 105C333 105 267 105 200 105C133 105 67 105 33 105H0V22.332Z' fill='%2330c6b0'/></svg>");
+  background-image: url("data:image/svg+xml;utf8,<svg viewBox='0 0 1200 87' fill='none' xmlns='http://www.w3.org/2000/svg'><path d='M0 14L33 12C82 8 133 9 200 19C267 29 333 43 400 45C467 48 533 38 600 26C667 14 733 0 800 0C867 0 933 14 1000 19C1067 24 1133 19 1167 16L1200 14V87H1167C1133 87 1067 87 1000 87C933 87 867 87 800 87C733 87 667 87 600 87C533 87 467 87 400 87C333 87 267 87 200 87C133 87 67 87 33 87H0V22.332Z' fill='%2330c6b0'/></svg>");
 }
 
 @media(max-width:850px) {
