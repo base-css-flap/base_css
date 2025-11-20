@@ -67,6 +67,8 @@ div.item1box:nth-child(3n){
 div.item1box_imgbox{
     width:100%;
     position: relative;
+    display: inline-block;
+    overflow: hidden;
 }
 
 div.item1box_imgbox .image-resize{
