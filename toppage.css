@@ -47,7 +47,7 @@ body#shopTopPage #mainContent div.item1box{
     box-sizing: border-box;
     margin:0px;
     padding:15px 18px;
-    width:25%;
+    width:calc(33% / 3);
     overflow-wrap: break-word;
 }
 
@@ -57,10 +57,6 @@ div.item1box:nth-child(3n-2){
 div.item1box:nth-child(3n-1){
     background:#C2EFE8;
 }
-div.item1box:nth-child(3n){
-    background:#9AE2D4;
-}
-
 
 
 
