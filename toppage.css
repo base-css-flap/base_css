@@ -52,7 +52,7 @@ body#shopTopPage #mainContent div.item1box{
 }
 
 div.item1box:nth-child(3n-2){
-    background:#FFFF00;
+    background:#FF00FF;
 }
 div.item1box:nth-child(3n-1){
     background:#C2EFE8;
@@ -66,6 +66,7 @@ div.item1box:nth-child(3n){
 
 div.item1box_imgbox{
     width:100%;
+    position: relative;
 }
 
 div.item1box_imgbox .image-resize{
