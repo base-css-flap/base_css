@@ -69,6 +69,7 @@ div.item1box_imgbox{
     position: relative;
     display: inline-block;
     overflow: hidden;
+    margin-bottom:15px;
 }
 
 div.item1box_imgbox .image-resize{
