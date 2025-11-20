@@ -45,48 +45,59 @@ body.shop #shopHeader nav{
 
 
 
-.wave-background {
-  position: relative;
-  width: 100%;
-  height: 100vh;
-  background: linear-gradient(to bottom, #00f 50%, #f00 50%);
-  overflow: hidden;
-}
+    .wave-background {
+      position: relative;
+      width: 100%;
+      height: 100vh;
+      /* 上が青、下が赤 */
+      background: linear-gradient(to bottom, #0000ff 0%, #0000ff 50%, #ff0000 50%, #ff0000 100%);
+      overflow: hidden;
+    }
+    .wave {
+      position: absolute;
+      bottom: 50%;
+      width: 200%;
+      height: 200%;
+      /* 波のSVGを背景に使用（白で、透明度を持たせて背景色が透けるように） */
+      background: url('data:image/svg+xml;utf8,<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1440 320"><path fill="%23ffffff" fill‑opacity="0.4" d="M0,160L120,170C240,180,360,140,480,160C600,180,720,120,840,160C960,200,1080,140,1200,160C1320,180,1440,160L1440,320L0,320Z"/></svg>') repeat‑x;
+      background-size: cover;
+      /* 各波の揺れを滑らかに */
+      animation‑timing-function: ease‑in‑out;
+    }
+    .wave1 {
+      animation: waveAnim1 6s infinite alternate;
+      opacity: 0.6;
+    }
+    .wave2 {
+      animation: waveAnim2 8s infinite alternate‑reverse;
+      opacity: 0.4;
+    }
+    .wave3 {
+      animation: waveAnim3 10s infinite alternate;
+      opacity: 0.3;
+    }
 
-.wave {
-  position: absolute;
-  bottom: 50%;
-  width: 200%;
-  height: 100%;
-  background: url('data:image/svg+xml;utf8,<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1440 320"><path fill="%23ffffff" fill-opacity="0.5" d="M0,160L120,170C240,180,360,140,480,160C600,180,720,120,840,160C960,200,1080,140,1200,160C1320,180,1440,160L1440,320L0,320Z"/></svg>') repeat-x;
-  background-size: cover;
-}
-
-/* 波1 */
-.wave1 {
-  animation: wave1Anim 6s ease-in-out infinite;
-}
-
-/* 波2（位相をずらす） */
-.wave2 {
-  animation: wave2Anim 8s ease-in-out infinite;
-}
-
-@keyframes wave1Anim {
-  0% { transform: translateX(0) translateY(0); }
-  25% { transform: translateX(-40px) translateY(20px); }
-  50% { transform: translateX(-80px) translateY(0); }
-  75% { transform: translateX(-40px) translateY(-20px); }
-  100% { transform: translateX(0) translateY(0); }
-}
-
-@keyframes wave2Anim {
-  0% { transform: translateX(0) translateY(0); }
-  25% { transform: translateX(-30px) translateY(-15px); }
-  50% { transform: translateX(-60px) translateY(0); }
-  75% { transform: translateX(-30px) translateY(15px); }
-  100% { transform: translateX(0) translateY(0); }
-}
+    @keyframes waveAnim1 {
+      0%   { transform: translateX(0%)   translateY(0px)   skewX(0deg); }
+      25%  { transform: translateX(-10%) translateY(20px)  skewX(-1deg); }
+      50%  { transform: translateX(-20%) translateY(-10px) skewX(1deg); }
+      75%  { transform: translateX(-10%) translateY(30px)  skewX(-0.5deg); }
+      100% { transform: translateX(0%)   translateY(0px)   skewX(0deg); }
+    }
+    @keyframes waveAnim2 {
+      0%   { transform: translateX(0%)   translateY(0px)   skewX(0deg); }
+      25%  { transform: translateX(-15%) translateY(-15px) skewX(1deg); }
+      50%  { transform: translateX(-30%) translateY(10px)  skewX(-1deg); }
+      75%  { transform: translateX(-15%) translateY(-25px) skewX(0.5deg); }
+      100% { transform: translateX(0%)   translateY(0px)   skewX(0deg); }
+    }
+    @keyframes waveAnim3 {
+      0%   { transform: translateX(0%)   translateY(0px)   skewX(0deg); }
+      25%  { transform: translateX(-8%)  translateY(10px)  skewX(-0.8deg); }
+      50%  { transform: translateX(-16%) translateY(-20px) skewX(0.8deg); }
+      75%  { transform: translateX(-8%)  translateY(15px)  skewX(-0.4deg); }
+      100% { transform: translateX(0%)   translateY(0px)   skewX(0deg); }
+    }
 
 
 
