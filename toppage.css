@@ -86,7 +86,7 @@ body#shopTopPage #mainContent div.item1box{
     margin:3px;
     padding:15px 18px;
 	border-radius:10px;
-    width:calc(100% / 3);
+    width:calc((100% / 3) - 6px);
     overflow-wrap: break-word;
 }
 
