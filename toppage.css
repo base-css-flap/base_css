@@ -52,10 +52,10 @@ body#shopTopPage #mainContent div.item1box{
 }
 
 div.item1box:nth-child(2n){
-    background:#00FFFF;
+    background:#B3E2D9;
 }
 div.item1box:nth-child(2n-1){
-    background:#C2EFE8;
+    background:#FFFFFF;
 }
 
 
