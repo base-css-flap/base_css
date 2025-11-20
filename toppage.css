@@ -87,3 +87,10 @@ div.soldout_cover{
     top: 0;
     zoom: 1;
 }
+
+
+
+div.item1box div.itemTitle h2{
+    font-size:125%;
+    
+}
