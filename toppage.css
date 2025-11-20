@@ -90,6 +90,9 @@ div.soldout_cover{
     right: 0;
     top: 0;
     zoom: 1;
+    font-weight:700;
+    font-size:18px;
+    color:#01B5A0;
 }
 
 
