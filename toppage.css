@@ -48,7 +48,7 @@ body.shop #shopHeader nav{
   position: relative;
   width: 100%;
   height: 100vh;
-  background: linear-gradient(to bottom, #00f 50%, #f00 50%);
+  background: linear-gradient(to bottom, #01B5A0 50%, #f00 50%);
   overflow: hidden;
 }
 
