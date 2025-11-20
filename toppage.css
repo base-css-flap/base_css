@@ -23,7 +23,7 @@ body.shop #shopHeader nav{
         display: inline-block;
     }
     div.zp_header_menu ul a li{
-        color:#00ffff;
+        color:#ffffff;
         font-size:18px;
         padding:10px;
         font-family: "M PLUS Rounded 1c", sans-serif;
@@ -31,5 +31,5 @@ body.shop #shopHeader nav{
         font-style: normal;
     }
     div.zp_header_menu ul a:hover li{
-        color:#CCCCCC;
+        color:#CC0000;
     }
