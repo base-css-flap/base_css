@@ -14,7 +14,7 @@ body.shop #shopHeader nav{
     div.zp_header img.shoplogo{
         width: 45%;
         max-width: 500px;        
-        min-width: 350px;
+        min-width: 250px;
     }
 
     div.zp_header_menu{
