@@ -62,6 +62,10 @@ div.item1box:nth-child(3n){
 
 
 
-item1box_imgbox{
+div.item1box_imgbox{
+    width:100%;
+}
+
+div.item1box_imgbox .image-resize{
     width:100%;
 }
