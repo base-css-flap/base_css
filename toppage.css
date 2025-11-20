@@ -42,15 +42,29 @@ body.shop #shopHeader nav{
 
 
 
-.wave {
-    width:100%;
-    height:100px;
-    background:#01B5A0;
-  --mask:
-    radial-gradient(72.11px at 50% calc(100% - 100px),#000 99%,#0000 101%) calc(50% - 80px) 0/160px 100%,
-    radial-gradient(72.11px at 50% calc(100% + 60px),#0000 99%,#000 101%) 50% calc(100% - 40px)/160px 100% repeat-x;
-  -webkit-mask: var(--mask);
-          mask: var(--mask);
+.wave-container {  
+  height: 40vh;
+  background-color: #01b5a0;
+  position: relative;
+}
+
+.wave-container::before {   
+  content: "";
+  width: 100%;
+  height: 130px;
+  position: absolute;
+  bottom: -0.3%;
+  left: 0;
+  background-size: auto;
+  background-repeat: repeat no-repeat;
+  background-position: 0vw bottom;
+  background-image: url("data:image/svg+xml;utf8,<svg viewBox='0 0 1200 108' fill='none' xmlns='http://www.w3.org/2000/svg'><path d='M0 18L33 15C82 10 133 12 200 24C267 36 333 54 400 57C467 60 533 48 600 33C667 18 733 0 800 0C867 0 933 18 1000 24C1067 30 1133 24 1167 21L1200 18V108H1167C1133 108 1067 108 1000 108C933 108 867 108 800 108C733 108 667 108 600 108C533 108 467 108 400 108C333 108 267 108 200 108C133 108 67 108 33 108H0V22.332Z' fill='%2330c6b0'/></svg>");
+}
+
+@media(max-width:850px) {
+  .wave-container::before {    
+    height: 65px
+  }  
 }
 
 
