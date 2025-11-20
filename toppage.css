@@ -9,8 +9,9 @@ body.shop #shopHeader nav{
     }
 
     div.zp_header img.shoplogo{
-        width: 50%;
-        min-width: 150px
+        width: 30%;
+        max-width: 400px;        
+        min-width: 150px;
     }
 
     div.zp_header_menu{
