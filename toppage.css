@@ -20,7 +20,7 @@ body.shop #shopHeader nav{
     div.zp_header_menu{
         background:#00B59F;
         text-align:center;
-        padding:15px 0px;
+        padding:15px 0px 0px 0px;
     }
 
     div.zp_header_menu ul li{
