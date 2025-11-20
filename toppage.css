@@ -40,7 +40,7 @@ div.zp_header_menu::after{
 }
 
 @media(max-width:850px) {
-  .wave-container::before {    
+  .wave-container::after {    
     height: 65px
   }  
 }
