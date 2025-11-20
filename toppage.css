@@ -58,3 +58,10 @@ div.item1box:nth-child(3n-1){
 div.item1box:nth-child(3n){
     background:#009179;
 }
+
+
+
+
+item1box_imgbox{
+    width:100%;
+}
