@@ -86,6 +86,7 @@ body.shop div#shopHeader nav ul li form#x_itemSearchForm{
 
 body.shop div#shopHeader nav ul li form#x_itemSearchForm input.itemSearch__field{ 
 	width:100%;
+	height:32px;
 	font-size:20px;
 	line-height:28px;
 	text-align:left;
