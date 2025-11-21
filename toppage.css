@@ -80,12 +80,12 @@ div.zp_header_menu ul a:hover li{
 
 
 /*商品検索フォーム*/
-body.shop #shophHeader nav ul li form.itemSearch__form{
+body.shop div#shopHeader nav ul li form#x_itemSearchForm{
 	width:300px!important;
 	background:#ff0000;	
 }
 
-body.shop #shophHeader nav ul li form.itemSearch__form input.itemSearch__field{ 
+body.shop div#shopHeader nav ul li form#x_itemSearchForm input.itemSearch__field{ 
 	width:100%;
 	font-size:18px;
 	line-height:36px;
