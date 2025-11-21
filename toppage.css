@@ -79,6 +79,14 @@ div.zp_header_menu ul a:hover li{
 
 
 
+/*商品検索フォーム*/
+form.itemSearch__form input.itemSearch__field{ 
+	width:300px;
+	font-size:18px;
+	line-height:36px;
+	
+}
+
 
 
 /*TOPページ商品一覧*/
