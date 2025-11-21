@@ -82,7 +82,7 @@ div.zp_header_menu ul a:hover li{
 /*商品検索フォーム*/
 form.itemSearch__form{
 	width:300px;
-	
+	background:#ff0000;	
 }
 
 form.itemSearch__form input.itemSearch__field{ 
