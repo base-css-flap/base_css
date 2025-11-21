@@ -81,7 +81,7 @@ div.zp_header_menu ul a:hover li{
 
 /*商品検索フォーム*/
 body.shop div#shopHeader nav ul li form#x_itemSearchForm{
-	width:850px!important;
+	width:100%;
 }
 
 body.shop div#shopHeader nav ul li form#x_itemSearchForm input.itemSearch__field{ 
