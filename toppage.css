@@ -128,6 +128,11 @@ div.item1box_imgbox .image-resize{
 	width:100%;
 }
 
+div.item1box ul.itemDetail li.itemPrice{
+	width:100%;
+	text-align:right;
+}
+
 div.soldout_cover{
 	display: flex;
 	align-items: center;
