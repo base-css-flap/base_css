@@ -149,15 +149,9 @@ body#shopTopPage #mainContent div.item1box{
 /* 📱スマホ（画面幅が600px以下）用のCSS */
 @media screen and (max-width: 600px) {
   body#shopTopPage #mainContent div.item1box {
-	display:block;
-	box-sizing: border-box;
-	margin:10px;
-	padding:15px 18px;
-	border-radius:10px;
-	overflow-wrap: break-word;
 	width:100%;
   }
-
+}
 
 
 div.item1box{
