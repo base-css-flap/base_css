@@ -227,16 +227,14 @@ div.footer_menu_box_back{
 }
 
 div.footer_menu_box{
-	width:900px;
-	margin:0px auto;
+	width:1100px;
+	margin:0px auto 20px auto;
 	box-sizimg:border-box;
-	border:1px solid #000;
 	text-align:center;
 }
 
 div.footer_menu_box div.menu_logo{
 	box-sizimg:border-box;
-	border:1px solid #000;
 	width:100%;
 }
 
@@ -246,21 +244,20 @@ div.footer_menu_box div.menu_logo img{
 
 div.footer_menu_box div.item_menu{
 	box-sizimg:border-box;
-	border:1px solid #CCC;
 	width:100%;
 	display: flex;
 }
+
 div.footer_menu_box div.item_menu ul{
 	display:block;
 	width:calc(100% / 4);
 	box-sizimg:border-box;
-	border:1px solid #CC00CC;
 }
 div.footer_menu_box div.item_menu ul li{
 	text-align:left;
-	font-size:14px;
+	font-size:16px;
 	color:#808080;
-	line-height:20px;
+	line-height:32px;
 }
 div.footer_menu_box div.item_menu ul li.title{
 	text-align:left;
@@ -271,8 +268,31 @@ div.footer_menu_box div.item_menu ul li.title{
 }
 
 
-div.footer_menu_box div.item_contents{
+
+
+
+
+
+div.footer_menu_box div.contents_menu ul{
+	display:block;
+	width:calc(100% / 4);
 	box-sizimg:border-box;
-	border:1px solid #999;
+}
+div.footer_menu_box div.contents_menu ul li{
+	text-align:left;
+	font-size:16px;
+	color:#808080;
+	line-height:32px;
+}
+div.footer_menu_box div.contents_menu ul li.title{
+	text-align:left;
+	font-size:18px;
+	font-weight:700;
+	color:#808080;
+	line-height:32px;
+}
+
+div.footer_menu_box div.contents_menu{
+	box-sizimg:border-box;
 	width:100%;
 }
