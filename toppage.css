@@ -108,11 +108,16 @@ body#shopTopPage #mainContent div.item1box{
 	overflow-wrap: break-word;
 }
 
-div.item1box:nth-child(2n){
-	background:#B3E2D9;
-}
 
-div.item1box:nth-child(2n-1){
+/* 📱スマホ（画面幅が600px以下）用のCSS */
+@media screen and (max-width: 600px) {
+  body#shopTopPage #mainContent div.item1box {
+	width:100%;
+  }
+
+
+
+div.item1box{
 	background:#FFFFFF;
 }
 
