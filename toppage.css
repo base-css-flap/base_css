@@ -161,3 +161,12 @@ div.item1box ul.itemDetail li.itemPrice{
 	bottom: 0;
 }
 
+
+
+
+/*アイテムページに関するCSS*/
+
+div.itempage_deli_day{
+	color:#999999;
+	font-size:14px;
+}
