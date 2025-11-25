@@ -166,7 +166,13 @@ div.item1box ul.itemDetail li.itemPrice{
 
 /*アイテムページに関するCSS*/
 
-div.itempage_deli_day{
+div.itempage_deli_day p.title{
 	color:#999999;
-	font-size:14px;
+	font-weight:700;
+	font-size:10px;
+}
+
+div.itempage_deli_day p.text{
+	color:#999999;
+	font-size:10px;
 }
