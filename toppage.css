@@ -220,10 +220,18 @@ div.itempage_deli_day p.text{
 
 /*フッターメニューに関するCSS*/
 
+
+div.footer_menu_box_back{
+	width:100%;
+	background:#ffffff;
+}
+
 div.footer_menu_box{
 	width:900px;
+	margin:auto 0px;
 	box-sizimg:border-box;
 	border:1px solid #fff;
+	text-align:center;
 }
 
 div.footer_menu_box div.menu_logo{
