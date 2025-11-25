@@ -134,7 +134,6 @@ body.shop div#shopHeader nav ul li form#x_itemSearchForm input.itemSearch__field
 
 
 /*TOPページ商品一覧*/
-/* 📱スマホ（画面幅が600pxを超える）用のCSS */
 body#shopTopPage #mainContent div.item1box{
 	display:block;
 	box-sizing: border-box;
@@ -146,8 +145,8 @@ body#shopTopPage #mainContent div.item1box{
 }
 
 
-/* 📱スマホ（画面幅が600px以下）用のCSS */
-@media screen and (max-width: 600px) {
+/* 📱スマホ（画面幅が700px以下）用のCSS */
+@media screen and (max-width: 700px) {
   body#shopTopPage #mainContent div.item1box {
 	width:100%;
   }
