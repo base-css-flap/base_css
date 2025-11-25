@@ -237,6 +237,7 @@ div.footer_menu_box{
 div.footer_menu_box div.menu_logo{
 	box-sizimg:border-box;
 	width:100%;
+	padding:40px 0px;
 }
 
 div.footer_menu_box div.menu_logo img{
