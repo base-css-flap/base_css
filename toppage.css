@@ -299,4 +299,7 @@ div.footer_menu_box div.contents_menu ul li.title{
 	line-height:32px;
 }
 
-
+hr.footer_menu_hr{
+	margin:80px 0px;
+	border-bottom:1px dotted #999;
+}
