@@ -228,7 +228,8 @@ div.footer_menu_box_back{
 
 div.footer_menu_box{
 	width:1100px;
-	margin:0px auto 20px auto;
+	margin:0px auto;
+	padding:20px;
 	box-sizimg:border-box;
 	text-align:center;
 }
@@ -255,7 +256,7 @@ div.footer_menu_box div.item_menu ul{
 }
 div.footer_menu_box div.item_menu ul li{
 	text-align:left;
-	font-size:16px;
+	font-size:15px;
 	color:#808080;
 	line-height:32px;
 }
