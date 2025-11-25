@@ -247,11 +247,21 @@ div.footer_menu_box div.menu_logo img{
 div.footer_menu_box div.item_menu{
 	box-sizimg:border-box;
 	border:1px solid #CCC;
-	widtrh:100%;
+	width:100%;
 }
+
+div.footer_menu_box div.item_menu table{
+	width:100%;
+}
+
+div.footer_menu_box div.item_menu table tr td{
+	width:calc(100% / 4);
+	vertical-align:top;
+}
+
 
 div.footer_menu_box div.item_contents{
 	box-sizimg:border-box;
 	border:1px solid #999;
-	widtrh:100%;
+	width:100%;
 }
