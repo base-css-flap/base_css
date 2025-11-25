@@ -253,6 +253,8 @@ div.footer_menu_box div.item_menu{
 div.footer_menu_box div.item_menu ul{
 	display:block;
 	width:calc(100% / 4);
+	box-sizimg:border-box;
+	border:1px solid #CC00CC;
 }
 div.footer_menu_box div.item_menu ul li{
 	text-align:left;
