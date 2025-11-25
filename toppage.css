@@ -221,3 +221,28 @@ div.itempage_deli_day p.text{
 	color:#999999;
 	font-size:11px;
 }
+
+
+
+
+/*フッターメニューに関するCSS*/
+
+div.footer_menu_box{
+	width:900px;
+	box-sizimg:border-box;
+	border:1px solid #fff;
+}
+
+div.footer_menu_box div.menu_logo{
+	widtrh:100%;
+	background:#339966;
+}
+
+div.footer_menu_box div.item_menu{
+	widtrh:100%;
+	background:#339966;
+}
+    <div class="item_menu"></div>
+    <div class="contents_menu"></div>
+
+</div>
