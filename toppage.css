@@ -247,7 +247,7 @@ div.footer_menu_box div.item_menu{
 	box-sizimg:border-box;
 	width:100%;
 	display: flex;
-	margin-bottom:80px;
+	padding-bottom:80px;
 }
 
 div.footer_menu_box div.item_menu ul{
