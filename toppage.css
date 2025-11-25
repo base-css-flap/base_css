@@ -258,6 +258,9 @@ div.footer_menu_box div.item_menu ul{
 }
 div.footer_menu_box div.item_menu ul li{
 	text-align:left;
+	font-size:14px;
+	color:#808080;
+	line-height:20px;
 }
 
 
