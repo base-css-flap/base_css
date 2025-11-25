@@ -228,7 +228,7 @@ div.footer_menu_box_back{
 
 div.footer_menu_box{
 	width:900px;
-	margin:auto 0px;
+	margin:0px auto;
 	box-sizimg:border-box;
 	border:1px solid #000;
 	text-align:center;
@@ -248,15 +248,14 @@ div.footer_menu_box div.item_menu{
 	box-sizimg:border-box;
 	border:1px solid #CCC;
 	width:100%;
+	display: flex;
 }
-
-div.footer_menu_box div.item_menu table{
-	width:100%;
-}
-
-div.footer_menu_box div.item_menu table tr td{
+div.footer_menu_box div.item_menu ul{
+	display:block;
 	width:calc(100% / 4);
-	vertical-align:top;
+}
+div.footer_menu_box div.item_menu ul li{
+	text-align:left;
 }
 
 
