@@ -79,39 +79,32 @@ div.zp_header_menu ul a:hover li{
 
 
 /*波線の境界02　フッター*/
+
+
 .wave-container-footer {  
-	  height: 90px;
-	  background-color: #01b5a0;
-	  position: relative;
+  height: 40vh;
+  background-color: #31c6b1;
+  position: relative;
 }
 
 .wave-container-footer::before {   
-	content: "";
-	width: 100%;
-	height: 45px;
-	position: absolute;
-	bottom: -0.3%;
-	left: 0;
-	background-size: auto;
-	background-repeat: repeat no-repeat;
-	background-position: 0vw bottom;
-	background-image: url("data:image/svg+xml;utf8,<svg viewBox='0 0 1200 87' fill='none' xmlns='http://www.w3.org/2000/svg'><path d='M0 14L33 12C82 8 133 9 200 19C267 29 333 43 400 45C467 48 533 38 600 26C667 14 733 0 800 0C867 0 933 14 1000 19C1067 24 1133 19 1167 16L1200 14V87H1167C1133 87 1067 87 1000 87C933 87 867 87 800 87C733 87 667 87 600 87C533 87 467 87 400 87C333 87 267 87 200 87C133 87 67 87 33 87H0V22.332Z' fill='%2330c6b0'/></svg>");
+  content: "";
+  width: 100%;
+  height: 51px;
+  position: absolute;
+  bottom: -0.3%;
+  left: 0;
+  background-size: auto;
+  background-repeat: repeat no-repeat;
+  background-position: 0vw bottom;
+  background-image: url("data:image/svg+xml;utf8,<svg viewBox='0 0 1200 80' fill='none' xmlns='http://www.w3.org/2000/svg'><path d='M0 13L33 11C82 8 133 8 200 17C267 26 333 40 400 42C467 44 533 35 600 24C667 13 733 0 800 0C867 0 933 13 1000 17C1067 22 1133 17 1167 15L1200 13V80H1167C1133 80 1067 80 1000 80C933 80 867 80 800 80C733 80 667 80 600 80C533 80 467 80 400 80C333 80 267 80 200 80C133 80 67 80 33 80H0V22.332Z' fill='%23ffffff'/></svg>");
 }
 
 @media(max-width:850px) {
-	.wave-container::before {	
-		height: 45px
-	}
+  .wave-container-footer::before {    
+    height: 25.5px
+  }  
 }
-
-
-
-
-
-
-
-
-
 
 
 
@@ -234,8 +227,12 @@ div.footer_menu_box{
 }
 
 div.footer_menu_box div.menu_logo{
-	widtrh:100%;
+	width:100%;
 	background:#339966;
+}
+
+div.footer_menu_box div.menu_logo img{
+	width:250px;	
 }
 
 div.footer_menu_box div.item_menu{
