@@ -262,6 +262,13 @@ div.footer_menu_box div.item_menu ul li{
 	color:#808080;
 	line-height:20px;
 }
+div.footer_menu_box div.item_menu ul li.title{
+	text-align:left;
+	font-size:18px;
+	font-weight:700;
+	color:#808080;
+	line-height:32px;
+}
 
 
 div.footer_menu_box div.item_contents{
