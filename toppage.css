@@ -267,7 +267,7 @@ div.item_menu ul li a,div.contents_menu ul li a{
 	line-height:32px;
 }
 div.item_menu ul li a:hover,div.contents_menu ul li a:hover{
-	text-decoration:underline;
+	text-decoration:underline #808080;
 }
 div.footer_menu_box div.item_menu ul li.title{
 	text-align:left;
