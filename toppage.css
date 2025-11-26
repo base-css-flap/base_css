@@ -295,6 +295,7 @@ div.footer_menu_box div.contents_menu ul a li{
 }
 div.footer_menu_box div.contents_menu ul a:hover li{
 	text-decoration:underline;
+	color:#CCCCCC;
 }
 div.footer_menu_box div.contents_menu ul li.title{
 	text-align:left;
