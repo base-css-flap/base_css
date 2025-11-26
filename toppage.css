@@ -261,13 +261,13 @@ div.footer_menu_box div.item_menu ul li{
 	color:#808080;
 	line-height:32px;
 }
-div.footer_menu_box div.item_menu ul li a{
+div.item_menu ul li a,div.contents_menu ul li a{
 	font-weight:700;
 	color:#808080;
 	font-size:16px;
 	line-height:32px;
 }
-div.footer_menu_box div.item_menu ul li a:hover{
+div.item_menu ul li a:hover,div.contents_menu ul li a:hover{
 	text-decoration:underline;
 }
 div.footer_menu_box div.item_menu ul li.title{
@@ -298,15 +298,6 @@ div.footer_menu_box div.contents_menu ul li{
 	font-size:16px;
 	color:#808080;
 	line-height:32px;
-}
-div.footer_menu_box div.contents_menu ul li a{
-	font-weight:700;
-	color:#808080;
-	font-size:16px;
-	line-height:32px;
-}
-div.footer_menu_box div.contents_menu ul li a:hover{
-	text-decoration:underline;
 }
 
 div.footer_menu_box div.contents_menu ul li.title{
