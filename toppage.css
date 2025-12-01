@@ -2,6 +2,11 @@ body{
 	background-color:#30C6B0!important;
 }
 
+body#shopDetailPage #mainContent}
+	border-radius: 15px;
+|
+
+
 /*ヘッダー*/
 body.shop #shopHeader nav{
 	border:none!important;
