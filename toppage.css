@@ -259,16 +259,16 @@ div.itempage_deli_day p.text{
 	display:block;
 	width:calc(100% / 1);
 	box-sizimg:border-box;
-}
-div.footer_menu_box div.contents_menu{
+	}
+	div.footer_menu_box div.contents_menu{
 	box-sizimg:border-box;
 	width:100%;
-}
+	}
 	div.footer_menu_box div.contents_menu ul{
 	display:block;
 	width:calc(100% / 1);
 	box-sizimg:border-box;
-}
+	}
 
 }
 
@@ -294,17 +294,17 @@ div.footer_menu_box div.contents_menu{
 	display:block;
 	width:calc(100% / 4);
 	box-sizimg:border-box;
-}
-div.footer_menu_box div.contents_menu{
+	}
+	div.footer_menu_box div.contents_menu{
 	box-sizimg:border-box;
 	width:100%;
 	display:flex;
-}
+	}
 	div.footer_menu_box div.contents_menu ul{
 	display:block;
 	width:calc(100% / 4);
 	box-sizimg:border-box;
-}
+	}
 
 }
 
