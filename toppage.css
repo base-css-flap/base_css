@@ -200,7 +200,10 @@ div.item1box ul.itemDetail li.itemPrice{
 	bottom: 0;
 }
 
-
+/*アイテム画像左上のアイコン*/
+div.item1box_imgbox img.label_image list{
+	z-index:10000;
+}
 
 
 
