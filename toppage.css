@@ -371,7 +371,10 @@ div.footer_menu_box div.contents_menu ul li.title{
 
 hr.footer_menu_hr{
 	margin:30px 0px;
+	width:80%;
+	box-sizing:border-box;
 	border-bottom:1px solid #999;
+	
 }
 
 
