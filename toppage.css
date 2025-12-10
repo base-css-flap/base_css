@@ -191,14 +191,16 @@ div.soldout_cover{
 }
 
 div.item1box div.itemTitle h2{
-	font-size:110%;
-	font-weight:100;
+	font-size:130%;
+	font-weight:700;
 }
 
 div.item1box ul.itemDetail li.itemPrice{
 	font-size:180%;
 	bottom: 0;
 }
+
+
 
 
 
