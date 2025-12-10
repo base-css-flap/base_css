@@ -259,6 +259,7 @@ div.itempage_deli_day p.text{
 	display:block;
 	width:calc(100% / 1);
 	box-sizimg:border-box;
+	margin-bottom:15px;
 	}
 	div.footer_menu_box div.contents_menu{
 	box-sizimg:border-box;
@@ -268,6 +269,7 @@ div.itempage_deli_day p.text{
 	display:block;
 	width:calc(100% / 1);
 	box-sizimg:border-box;
+	margin-bottom:15px;
 	}
 
 }
@@ -294,6 +296,7 @@ div.itempage_deli_day p.text{
 	display:block;
 	width:calc(100% / 4);
 	box-sizimg:border-box;
+	margin-bottom:15px;
 	}
 	div.footer_menu_box div.contents_menu{
 	box-sizimg:border-box;
@@ -304,6 +307,7 @@ div.itempage_deli_day p.text{
 	display:block;
 	width:calc(100% / 4);
 	box-sizimg:border-box;
+	margin-bottom:15px;
 	}
 
 }
