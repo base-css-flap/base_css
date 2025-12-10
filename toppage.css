@@ -240,11 +240,11 @@ div.itempage_deli_day p.text{
 
 /* 📱スマホ（画面幅が700px以下）用のCSS */
 @media screen and (max-width: 700px) {
-	body#shopTopPage #mainContent div.footer_menu_box_back {
+	div.footer_menu_box_back {
 	width:100%;
 	background:#ffffff;
 	}
-	body#shopTopPage #mainContent div.footer_menu_box {
+	div.footer_menu_box {
 	width:100%;
 	margin:0px auto;
 	padding:20px;
