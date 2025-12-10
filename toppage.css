@@ -200,9 +200,17 @@ div.item1box ul.itemDetail li.itemPrice{
 	bottom: 0;
 }
 
-/*アイテム画像左上のアイコン*/
-div.item1box_imgbox img.label_image list{
-	z-index:10000;
+/*アイテム画像左上のアイコンの位置の調整*/
+.label_image {
+    position: absolute!important;
+    //top: -12px;
+    //left: -12px;
+    top: 2px;
+    left: 2px;
+	height: 70px;
+    width: 70px;
+    z-index: 10;
+    background: 0 0!important
 }
 
 
