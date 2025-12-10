@@ -242,7 +242,8 @@ div.itempage_deli_day p.text{
 @media screen and (max-width: 700px) {
 	body#shopTopPage #mainContent div.footer_menu_box_back {
 	width:100%;
-  }
+	background:#ffffff;
+	}
 	body#shopTopPage #mainContent div.footer_menu_box {
 	width:100%;
 	margin:0px auto;
@@ -253,18 +254,18 @@ div.itempage_deli_day p.text{
 }
 
 @media screen and (min-width: 700px) {
-div.footer_menu_box_back{
-	width:100%;
-	background:#ffffff;
-}
+	div.footer_menu_box_back{
+		width:100%;
+		background:#ffffff;
+	}
 
-div.footer_menu_box{
-	width:1100px;
-	margin:0px auto;
-	padding:20px;
-	box-sizimg:border-box;
-	text-align:center;
-}
+	div.footer_menu_box{
+		width:1100px;
+		margin:0px auto;
+		padding:20px;
+		box-sizimg:border-box;
+		text-align:center;
+	}
 }
 
 div.footer_menu_box div.menu_logo{
