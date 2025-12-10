@@ -330,3 +330,19 @@ hr.footer_menu_hr{
 	margin:30px 0px;
 	border-bottom:1px solid #999;
 }
+
+
+
+
+/* 📱スマホ（画面幅が700px以下）用のCSS */
+@media screen and (max-width: 700px) {
+	body#shopTopPage #mainContent div.footer_menu_box_back {
+	width:100%;
+  }
+	body#shopTopPage #mainContent div.footer_menu_box {
+	width:100%;
+  }
+	body#shopTopPage #mainContent div.item_menu {
+	width:100%;
+  }
+}
