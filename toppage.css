@@ -250,7 +250,11 @@ div.itempage_deli_day p.text{
 	padding:20px;
 	box-sizimg:border-box;
 	text-align:center;
-  }
+	}
+	div.footer_menu_box div.item_menu{
+		box-sizimg:border-box;
+		width:100%;
+	}
 }
 
 @media screen and (min-width: 700px) {
@@ -266,6 +270,11 @@ div.itempage_deli_day p.text{
 		box-sizimg:border-box;
 		text-align:center;
 	}
+	div.footer_menu_box div.item_menu{
+		box-sizimg:border-box;
+		width:100%;
+		display: flex;
+	}
 }
 
 div.footer_menu_box div.menu_logo{
@@ -278,11 +287,7 @@ div.footer_menu_box div.menu_logo img{
 	width:250px;	
 }
 
-div.footer_menu_box div.item_menu{
-	box-sizimg:border-box;
-	width:100%;
-	display: flex;
-}
+
 
 div.footer_menu_box div.item_menu ul{
 	display:block;
